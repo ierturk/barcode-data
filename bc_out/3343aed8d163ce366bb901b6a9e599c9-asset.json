@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "3343aed8d163ce366bb901b6a9e599c9",
+        "name": "05102009115.jpg",
+        "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009115.jpg",
+        "size": {
+            "width": 1200,
+            "height": 1600
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "GUPJMeDCe",
+            "type": "RECTANGLE",
+            "tags": [
+                "barcode"
+            ],
+            "boundingBox": {
+                "height": 628.2208588957055,
+                "width": 650.3067484662577,
+                "left": 236.80981595092024,
+                "top": 493.2515337423313
+            },
+            "points": [
+                {
+                    "x": 236.80981595092024,
+                    "y": 493.2515337423313
+                },
+                {
+                    "x": 887.116564417178,
+                    "y": 493.2515337423313
+                },
+                {
+                    "x": 887.116564417178,
+                    "y": 1121.4723926380368
+                },
+                {
+                    "x": 236.80981595092024,
+                    "y": 1121.4723926380368
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

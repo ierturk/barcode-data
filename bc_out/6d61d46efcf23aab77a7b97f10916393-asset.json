@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "JPG",
+        "id": "6d61d46efcf23aab77a7b97f10916393",
+        "name": "PIadwCT0019.JPG",
+        "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PIadwCT0019.JPG",
+        "size": {
+            "width": 2976,
+            "height": 2232
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "-il4CkeF8",
+            "type": "RECTANGLE",
+            "tags": [
+                "barcode"
+            ],
+            "boundingBox": {
+                "height": 818.0678571428573,
+                "width": 1555.8176943699732,
+                "left": 582.4343163538874,
+                "top": 648.6749999999998
+            },
+            "points": [
+                {
+                    "x": 582.4343163538874,
+                    "y": 648.6749999999998
+                },
+                {
+                    "x": 2138.2520107238606,
+                    "y": 648.6749999999998
+                },
+                {
+                    "x": 2138.2520107238606,
+                    "y": 1466.7428571428572
+                },
+                {
+                    "x": 582.4343163538874,
+                    "y": 1466.7428571428572
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

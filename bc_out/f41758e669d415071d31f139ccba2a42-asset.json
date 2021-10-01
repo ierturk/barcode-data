@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "f41758e669d415071d31f139ccba2a42",
+        "name": "05102009138.jpg",
+        "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009138.jpg",
+        "size": {
+            "width": 2048,
+            "height": 1536
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "NS_lTFeyn",
+            "type": "RECTANGLE",
+            "tags": [
+                "barcode"
+            ],
+            "boundingBox": {
+                "height": 732.3428571428572,
+                "width": 1183.2278820375336,
+                "left": 439.24932975871315,
+                "top": 408
+            },
+            "points": [
+                {
+                    "x": 439.24932975871315,
+                    "y": 408
+                },
+                {
+                    "x": 1622.4772117962466,
+                    "y": 408
+                },
+                {
+                    "x": 1622.4772117962466,
+                    "y": 1140.3428571428572
+                },
+                {
+                    "x": 439.24932975871315,
+                    "y": 1140.3428571428572
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

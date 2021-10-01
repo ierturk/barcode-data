@@ -1,0 +1,49 @@
+{
+    "asset": {
+        "format": "JPG",
+        "id": "019586940ca7cb5a68469030ddb2ba7c",
+        "name": "PIghCT0005.JPG",
+        "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PIghCT0005.JPG",
+        "size": {
+            "width": 2976,
+            "height": 2232
+        },
+        "state": 2,
+        "type": 1,
+        "predicted": true
+    },
+    "regions": [
+        {
+            "id": "S2_-wc2r5",
+            "type": "RECTANGLE",
+            "tags": [
+                "barcode"
+            ],
+            "boundingBox": {
+                "height": 661.6285714285715,
+                "width": 1503.9571045576408,
+                "left": 662.2198391420911,
+                "top": 867.8892857142857
+            },
+            "points": [
+                {
+                    "x": 662.2198391420911,
+                    "y": 867.8892857142857
+                },
+                {
+                    "x": 2166.176943699732,
+                    "y": 867.8892857142857
+                },
+                {
+                    "x": 2166.176943699732,
+                    "y": 1529.517857142857
+                },
+                {
+                    "x": 662.2198391420911,
+                    "y": 1529.517857142857
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "JPG",
+        "id": "44d90b0168978e8107589344d0c7de58",
+        "name": "PICT0024.JPG",
+        "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0024.JPG",
+        "size": {
+            "width": 2976,
+            "height": 2232
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "SNOJDFuvi",
+            "type": "RECTANGLE",
+            "tags": [
+                "barcode"
+            ],
+            "boundingBox": {
+                "height": 1203.6857142857143,
+                "width": 1575.7640750670241,
+                "left": 1160.8793565683645,
+                "top": 668.6035714285714
+            },
+            "points": [
+                {
+                    "x": 1160.8793565683645,
+                    "y": 668.6035714285714
+                },
+                {
+                    "x": 2736.643431635389,
+                    "y": 668.6035714285714
+                },
+                {
+                    "x": 2736.643431635389,
+                    "y": 1872.2892857142858
+                },
+                {
+                    "x": 1160.8793565683645,
+                    "y": 1872.2892857142858
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

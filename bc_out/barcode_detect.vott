@@ -1,0 +1,5208 @@
+{
+    "name": "barcode_detect",
+    "securityToken": "barcode_00 Token",
+    "sourceConnection": {
+        "name": "barcode_dataset_combined",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMzNiNjZhY2NkNzUwY2ExNTM0ODFiNDU1ZDYzZmM4MTMyMTQyMzA3OTY2YzI3ZWM3MWZhYmRhM2ZjOWJmODliZjE3YzAxNGM4YTMyMWJhZmUzMzlhZWUyMzZjZDQxNDNhODI5OTVjMjFiNjNiZTVhMDg5YThjZjg2ZGEzOTE5ZTczOGIyZjIxMTk4MzcwYTM5ZjJkZTkzZTY5Y2EzNWYwOSIsIml2IjoiNDA3ZDUyNjZjNzg2NmY4YTJiZThiMTNkYjIxN2YzNDkyY2EwYWZiZjUwMmI0ZmQ2In0="
+        },
+        "id": "qYrCS72Cv"
+    },
+    "targetConnection": {
+        "name": "bc_out",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNjliMTlmZDA4YjgxNTg0OTk5NjM4M2IyODgxMDFhZGNmM2RkOTdkZjIwOTFjZjYwOTJhZTBmODM0YjhmNDM4OTYyM2IzZWM4N2M0ZTc3ZDQ3MGU3YTc5NDQ2OThjOTc5ODYxMmFhZjRhZDcyNTMyNWM5ODBhZjJmODcyMzI5ZjRkMDY4ODE5ZmIzOTlmOTc2ZGI4MTUzNzA5ZWQ4NzA4ZSIsIml2IjoiMmQ4YWU2YThhMjhhZjJmZjM2NmFhZjFkNmY2YmNiNzJhNTE3MGFlMTQyNzhhZmNmIn0="
+        },
+        "id": "jkv9bMJNV"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "barcode",
+            "color": "#5db300"
+        }
+    ],
+    "id": "8tTXNEbyC",
+    "activeLearningSettings": {
+        "modelPathType": "coco",
+        "autoDetect": false,
+        "predictTag": true
+    },
+    "exportFormat": {
+        "providerType": "csv",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDRhZWUxN2Y1NTFjMjc3YjI5M2YwMjI3NTcxZmI2YWQ0NWNlOTg2YTBjY2MyZDI5MzVlYjFjNGNlMTlkNTkxNGE0NjRlZTIyZWQxNTBkYTdiZTRhZmY2NGNiY2MwMGEwIiwiaXYiOiIzNjY0OTYwMzcwYjlhNTYzNGQ1ZWFjNjEyZDViYmZjNzQ2NjA1MDlmYzg2MjJhZTkifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "e33d747993c6dafded774b2af63e7b47",
+    "assets": {
+        "8d5b79e547544e8115a9c1ff6e900d9c": {
+            "format": "jpg",
+            "id": "8d5b79e547544e8115a9c1ff6e900d9c",
+            "name": "05102009081.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009081.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "9c83dbc41f1968c30a17a1956c467e78": {
+            "format": "jpg",
+            "id": "9c83dbc41f1968c30a17a1956c467e78",
+            "name": "05102009135.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009135.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1536
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "019586940ca7cb5a68469030ddb2ba7c": {
+            "format": "JPG",
+            "id": "019586940ca7cb5a68469030ddb2ba7c",
+            "name": "PIghCT0005.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PIghCT0005.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "aba267736d5b015a994223628ed8b47f": {
+            "format": "jpg",
+            "id": "aba267736d5b015a994223628ed8b47f",
+            "name": "05102009082.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009082.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "950be3feeb025db9ef0c3352e11680f6": {
+            "format": "jpg",
+            "id": "950be3feeb025db9ef0c3352e11680f6",
+            "name": "05102009083.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009083.jpg",
+            "size": {
+                "width": 1200,
+                "height": 1600
+            },
+            "state": 2,
+            "type": 1
+        },
+        "46c51bd504f649b8636fc41c995c87d8": {
+            "format": "jpg",
+            "id": "46c51bd504f649b8636fc41c995c87d8",
+            "name": "05102009101.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009101.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f8cef0e8ce03df59aaee0a86f0bbe78a": {
+            "format": "jpg",
+            "id": "f8cef0e8ce03df59aaee0a86f0bbe78a",
+            "name": "05102009102.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009102.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "45dbfc7f7c2884ac7b1ddeecbaac956d": {
+            "format": "jpg",
+            "id": "45dbfc7f7c2884ac7b1ddeecbaac956d",
+            "name": "05102009103.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009103.jpg",
+            "size": {
+                "width": 1200,
+                "height": 1600
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bc805c9a41cb5b7056886226ccc6b342": {
+            "format": "jpg",
+            "id": "bc805c9a41cb5b7056886226ccc6b342",
+            "name": "05102009104.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009104.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "06b89a38aa87f50d820a21c5ce5a6a5b": {
+            "format": "jpg",
+            "id": "06b89a38aa87f50d820a21c5ce5a6a5b",
+            "name": "05102009105.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009105.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1c196d5a40dcf778d667919ba70a8895": {
+            "format": "jpg",
+            "id": "1c196d5a40dcf778d667919ba70a8895",
+            "name": "05102009106.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009106.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8eeab806408b8a16963c7ce48a49fb63": {
+            "format": "jpg",
+            "id": "8eeab806408b8a16963c7ce48a49fb63",
+            "name": "05102009108.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009108.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2c622a202bc0b8c52f7e19140933ee91": {
+            "format": "jpg",
+            "id": "2c622a202bc0b8c52f7e19140933ee91",
+            "name": "05102009110.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009110.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "39aadf66403c622a4f76de4d1f43d383": {
+            "format": "jpg",
+            "id": "39aadf66403c622a4f76de4d1f43d383",
+            "name": "05102009111.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009111.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e4a11d2f70bc634463167476cefa09fa": {
+            "format": "jpg",
+            "id": "e4a11d2f70bc634463167476cefa09fa",
+            "name": "05102009114.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009114.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3343aed8d163ce366bb901b6a9e599c9": {
+            "format": "jpg",
+            "id": "3343aed8d163ce366bb901b6a9e599c9",
+            "name": "05102009115.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009115.jpg",
+            "size": {
+                "width": 1200,
+                "height": 1600
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ad385cba080bbf475add25bb6c67025e": {
+            "format": "jpg",
+            "id": "ad385cba080bbf475add25bb6c67025e",
+            "name": "05102009117.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009117.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d8056d31fc679c32231dde30f9167a3f": {
+            "format": "jpg",
+            "id": "d8056d31fc679c32231dde30f9167a3f",
+            "name": "05102009118.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009118.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "10df1eb07f50009d868e0f515ae10141": {
+            "format": "jpg",
+            "id": "10df1eb07f50009d868e0f515ae10141",
+            "name": "05102009119.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009119.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e77cebaf52b8f11f878d937366b52b9c": {
+            "format": "jpg",
+            "id": "e77cebaf52b8f11f878d937366b52b9c",
+            "name": "05102009120.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009120.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1536
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9d484aa68facb1cf699d02d453529056": {
+            "format": "jpg",
+            "id": "9d484aa68facb1cf699d02d453529056",
+            "name": "05102009121.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009121.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1536
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6db69694f6678f4d3ace843b7ea2548f": {
+            "format": "jpg",
+            "id": "6db69694f6678f4d3ace843b7ea2548f",
+            "name": "05102009122.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009122.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1536
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a97bda1b4a512f7a9ab1469ace638f87": {
+            "format": "jpg",
+            "id": "a97bda1b4a512f7a9ab1469ace638f87",
+            "name": "05102009123.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009123.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1536
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a21b104a26d4be0e177b9159d9afb326": {
+            "format": "jpg",
+            "id": "a21b104a26d4be0e177b9159d9afb326",
+            "name": "05102009124.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009124.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1536
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e7fa5222b886fb26b62b31218ed2e8d1": {
+            "format": "jpg",
+            "id": "e7fa5222b886fb26b62b31218ed2e8d1",
+            "name": "05102009125.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009125.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1536
+            },
+            "state": 2,
+            "type": 1
+        },
+        "62932cfba8683378cce915dd255bb1eb": {
+            "format": "jpg",
+            "id": "62932cfba8683378cce915dd255bb1eb",
+            "name": "05102009126.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009126.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1536
+            },
+            "state": 2,
+            "type": 1
+        },
+        "64121f1bc929ca820946deb4da3b4d11": {
+            "format": "jpg",
+            "id": "64121f1bc929ca820946deb4da3b4d11",
+            "name": "05102009127.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009127.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1536
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7d53489b0c2b67601c04406b2b6dd78d": {
+            "format": "jpg",
+            "id": "7d53489b0c2b67601c04406b2b6dd78d",
+            "name": "05102009129.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009129.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1536
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e198f3476be4d697e4e0143c8ba0b94e": {
+            "format": "jpg",
+            "id": "e198f3476be4d697e4e0143c8ba0b94e",
+            "name": "05102009131.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009131.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1536
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e3e623c4814883fefa42cf7efcd13760": {
+            "format": "jpg",
+            "id": "e3e623c4814883fefa42cf7efcd13760",
+            "name": "05102009132.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009132.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1536
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8c62157078b1bc6151f85f809b3269f2": {
+            "format": "jpg",
+            "id": "8c62157078b1bc6151f85f809b3269f2",
+            "name": "05102009133.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009133.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1536
+            },
+            "state": 2,
+            "type": 1
+        },
+        "60d71f5f3427b3f74f460e02637b5cc9": {
+            "format": "jpg",
+            "id": "60d71f5f3427b3f74f460e02637b5cc9",
+            "name": "05102009134.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009134.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1536
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9f0a79bf12f98772cc936f2af811783a": {
+            "format": "jpg",
+            "id": "9f0a79bf12f98772cc936f2af811783a",
+            "name": "05102009137.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009137.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1536
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f41758e669d415071d31f139ccba2a42": {
+            "format": "jpg",
+            "id": "f41758e669d415071d31f139ccba2a42",
+            "name": "05102009138.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009138.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1536
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c901e9bada0881f22d1eb350874a8d6e": {
+            "format": "jpg",
+            "id": "c901e9bada0881f22d1eb350874a8d6e",
+            "name": "05102009139.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009139.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1536
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f725e466f087322bbe8856e3d3db7987": {
+            "format": "jpg",
+            "id": "f725e466f087322bbe8856e3d3db7987",
+            "name": "05102009140.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009140.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1536
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f91dcd605184d0391106ab18fbe6a991": {
+            "format": "jpg",
+            "id": "f91dcd605184d0391106ab18fbe6a991",
+            "name": "05102009141.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009141.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f65f8b441f28de0d1bd175ac864aa613": {
+            "format": "jpg",
+            "id": "f65f8b441f28de0d1bd175ac864aa613",
+            "name": "05102009142.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009142.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "82a62e182d4751bdcfa3d8d81044953f": {
+            "format": "jpg",
+            "id": "82a62e182d4751bdcfa3d8d81044953f",
+            "name": "05102009143.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009143.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "320ad12b7a1afee55d5e187ed4a2a8d3": {
+            "format": "jpg",
+            "id": "320ad12b7a1afee55d5e187ed4a2a8d3",
+            "name": "05102009144.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009144.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5bb94292ac8416a9d076f4c8f67b8a49": {
+            "format": "jpg",
+            "id": "5bb94292ac8416a9d076f4c8f67b8a49",
+            "name": "05102009145.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009145.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "878c64c4bd2a94c16a9d0656517ddeb4": {
+            "format": "jpg",
+            "id": "878c64c4bd2a94c16a9d0656517ddeb4",
+            "name": "05102009146.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009146.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1431a308b6ce0666c27ee8037462312f": {
+            "format": "jpg",
+            "id": "1431a308b6ce0666c27ee8037462312f",
+            "name": "05102009148.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009148.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "17523ba3b28efb98d1e5b9e96c1b6d37": {
+            "format": "jpg",
+            "id": "17523ba3b28efb98d1e5b9e96c1b6d37",
+            "name": "05102009149.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009149.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c2ca5fa3a3cb48ce4810ed8ef280d2df": {
+            "format": "jpg",
+            "id": "c2ca5fa3a3cb48ce4810ed8ef280d2df",
+            "name": "05102009150.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009150.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1126e52650762fd2404b365a870126fc": {
+            "format": "jpg",
+            "id": "1126e52650762fd2404b365a870126fc",
+            "name": "05102009151.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009151.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f4c3ab8db7468412cdaed20a1fa8af39": {
+            "format": "jpg",
+            "id": "f4c3ab8db7468412cdaed20a1fa8af39",
+            "name": "05102009152.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009152.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "26ddf2bb90402bdcfcd06736154a9553": {
+            "format": "jpg",
+            "id": "26ddf2bb90402bdcfcd06736154a9553",
+            "name": "05102009153.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009153.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c2e03dfe110b72663f38e3a6e748a6ec": {
+            "format": "jpg",
+            "id": "c2e03dfe110b72663f38e3a6e748a6ec",
+            "name": "05102009154.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009154.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "25a87418d779610bff1feb9977351b7c": {
+            "format": "jpg",
+            "id": "25a87418d779610bff1feb9977351b7c",
+            "name": "05102009155.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009155.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b5826f622d23f649ccba4b4e41a3809c": {
+            "format": "jpg",
+            "id": "b5826f622d23f649ccba4b4e41a3809c",
+            "name": "05102009156.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009156.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c53fe30c6f91a9d449cd9f6873050eba": {
+            "format": "jpg",
+            "id": "c53fe30c6f91a9d449cd9f6873050eba",
+            "name": "05102009157.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009157.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b52d84b4e4081612e42d58066a72a8eb": {
+            "format": "jpg",
+            "id": "b52d84b4e4081612e42d58066a72a8eb",
+            "name": "05102009158.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009158.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c54e22b76f7e8288f6dfdd289b37806a": {
+            "format": "jpg",
+            "id": "c54e22b76f7e8288f6dfdd289b37806a",
+            "name": "05102009159.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009159.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ccd7ace75a0672fb413bb3097c28a5af": {
+            "format": "jpg",
+            "id": "ccd7ace75a0672fb413bb3097c28a5af",
+            "name": "05102009160.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009160.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "636e99f1798bfbab5f0803be170ff508": {
+            "format": "jpg",
+            "id": "636e99f1798bfbab5f0803be170ff508",
+            "name": "05102009161.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009161.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "55cdb0f9e540e5c0de00b3f3c9c76d17": {
+            "format": "jpg",
+            "id": "55cdb0f9e540e5c0de00b3f3c9c76d17",
+            "name": "05102009162.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009162.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "28000bdb5148e8d7b1dba592a685708e": {
+            "format": "jpg",
+            "id": "28000bdb5148e8d7b1dba592a685708e",
+            "name": "05102009163.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009163.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "004bb701a01823ce820475d2058fc3b0": {
+            "format": "jpg",
+            "id": "004bb701a01823ce820475d2058fc3b0",
+            "name": "05102009164.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009164.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "49daeb535da6f4ef03d04e171b672527": {
+            "format": "jpg",
+            "id": "49daeb535da6f4ef03d04e171b672527",
+            "name": "05102009165.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009165.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4c71d0f161b0569f7f027da4c337f999": {
+            "format": "jpg",
+            "id": "4c71d0f161b0569f7f027da4c337f999",
+            "name": "05102009166.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009166.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7a2f4fdcb2f51c95f7f34e1d3790c73e": {
+            "format": "jpg",
+            "id": "7a2f4fdcb2f51c95f7f34e1d3790c73e",
+            "name": "05102009168.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009168.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dbf9ccce8560bb56f72ee9ead10e25f9": {
+            "format": "jpg",
+            "id": "dbf9ccce8560bb56f72ee9ead10e25f9",
+            "name": "05102009169.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009169.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "77964d9229638ebbcbcaea44832d79ea": {
+            "format": "jpg",
+            "id": "77964d9229638ebbcbcaea44832d79ea",
+            "name": "05102009170.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009170.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dc880666fbd4a207c55d02dbec768d6f": {
+            "format": "jpg",
+            "id": "dc880666fbd4a207c55d02dbec768d6f",
+            "name": "05102009171.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009171.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "98b084629e0f805fff1091ea4013b0af": {
+            "format": "jpg",
+            "id": "98b084629e0f805fff1091ea4013b0af",
+            "name": "05102009172.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009172.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eba32d4abeae603eec69303beb187cd6": {
+            "format": "jpg",
+            "id": "eba32d4abeae603eec69303beb187cd6",
+            "name": "05102009173.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009173.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4739383c44dacb276fb567ffdf0ab341": {
+            "format": "jpg",
+            "id": "4739383c44dacb276fb567ffdf0ab341",
+            "name": "05102009175.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009175.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "01b56200e1d019e3f3ec7caeab9d9f3c": {
+            "format": "jpg",
+            "id": "01b56200e1d019e3f3ec7caeab9d9f3c",
+            "name": "05102009176.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009176.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "644c6a7de26bd504cb6b63aa5e98f831": {
+            "format": "jpg",
+            "id": "644c6a7de26bd504cb6b63aa5e98f831",
+            "name": "05102009177.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009177.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f54de1f3bc76eedfd6da5715cdc56643": {
+            "format": "jpg",
+            "id": "f54de1f3bc76eedfd6da5715cdc56643",
+            "name": "05102009178.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009178.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f22e6cd95e9b8d8e0794b81a0f24f5ac": {
+            "format": "jpg",
+            "id": "f22e6cd95e9b8d8e0794b81a0f24f5ac",
+            "name": "05102009179.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009179.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e8433d32213068d1ef8fb2ab99b89a4b": {
+            "format": "jpg",
+            "id": "e8433d32213068d1ef8fb2ab99b89a4b",
+            "name": "05102009180.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009180.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ce9afc10b07baf2f4e4a1ba580d11268": {
+            "format": "jpg",
+            "id": "ce9afc10b07baf2f4e4a1ba580d11268",
+            "name": "05102009183.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009183.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "de2b1410391e1ea29e8d04183ef781f5": {
+            "format": "jpg",
+            "id": "de2b1410391e1ea29e8d04183ef781f5",
+            "name": "05102009184.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009184.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b5dc886016d1684a63cf7047b5dae928": {
+            "format": "jpg",
+            "id": "b5dc886016d1684a63cf7047b5dae928",
+            "name": "05102009185.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009185.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8017b5a6ff19a86fce2818cb35e4fde7": {
+            "format": "jpg",
+            "id": "8017b5a6ff19a86fce2818cb35e4fde7",
+            "name": "05102009186.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009186.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "413b100f0275fee0574ff3a79330bab1": {
+            "format": "jpg",
+            "id": "413b100f0275fee0574ff3a79330bab1",
+            "name": "05102009187.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009187.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4fb7b8f24c38a7244302107023bfa745": {
+            "format": "jpg",
+            "id": "4fb7b8f24c38a7244302107023bfa745",
+            "name": "05102009189.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009189.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f46e5b1e44015bd9ff897778a4ab9079": {
+            "format": "jpg",
+            "id": "f46e5b1e44015bd9ff897778a4ab9079",
+            "name": "05102009190.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009190.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dc8ee4a752daf0e4858562815b00ec4d": {
+            "format": "jpg",
+            "id": "dc8ee4a752daf0e4858562815b00ec4d",
+            "name": "05102009191.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009191.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "29e5ead5b39d387bb9da04e69726f829": {
+            "format": "jpg",
+            "id": "29e5ead5b39d387bb9da04e69726f829",
+            "name": "05102009192.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009192.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "87f98bb4d75c8a9171cf148d49c67736": {
+            "format": "jpg",
+            "id": "87f98bb4d75c8a9171cf148d49c67736",
+            "name": "05102009193.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009193.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "287134341804b46e4331eadee3edb833": {
+            "format": "jpg",
+            "id": "287134341804b46e4331eadee3edb833",
+            "name": "05102009194.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009194.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4d7d0ccefeea12dd22e262b4692f8338": {
+            "format": "jpg",
+            "id": "4d7d0ccefeea12dd22e262b4692f8338",
+            "name": "05102009195.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009195.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ea8b727e865b0a4201ebffe25369a5a8": {
+            "format": "jpg",
+            "id": "ea8b727e865b0a4201ebffe25369a5a8",
+            "name": "05102009196.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009196.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8a608607c98b997f5a215cc715d16705": {
+            "format": "jpg",
+            "id": "8a608607c98b997f5a215cc715d16705",
+            "name": "05102009197.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009197.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0d6a1f96c9eaa111a8fc7e2c5dcfc6fa": {
+            "format": "jpg",
+            "id": "0d6a1f96c9eaa111a8fc7e2c5dcfc6fa",
+            "name": "05102009198.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009198.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ec7f1574df8a062f1145b6f2e212f497": {
+            "format": "jpg",
+            "id": "ec7f1574df8a062f1145b6f2e212f497",
+            "name": "05102009199.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009199.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "03db36428dbf524dc913f88f6f128305": {
+            "format": "jpg",
+            "id": "03db36428dbf524dc913f88f6f128305",
+            "name": "05102009200.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009200.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7e5f3edee7ec77bf26fb7da230ef7d49": {
+            "format": "jpg",
+            "id": "7e5f3edee7ec77bf26fb7da230ef7d49",
+            "name": "05102009201.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009201.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "426478ecbf48b6ca193b3d721d7333a3": {
+            "format": "jpg",
+            "id": "426478ecbf48b6ca193b3d721d7333a3",
+            "name": "05102009202.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009202.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ec9d232757349b2549c46759c4ab5300": {
+            "format": "jpg",
+            "id": "ec9d232757349b2549c46759c4ab5300",
+            "name": "05102009203.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009203.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "08fb689801c742d8aff0c81660f6b237": {
+            "format": "jpg",
+            "id": "08fb689801c742d8aff0c81660f6b237",
+            "name": "05102009205.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009205.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bf69f6fe8749fc72b754951b0e565436": {
+            "format": "jpg",
+            "id": "bf69f6fe8749fc72b754951b0e565436",
+            "name": "05102009206.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009206.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "377bf8d419ba153e2e780ae59b25f39d": {
+            "format": "jpg",
+            "id": "377bf8d419ba153e2e780ae59b25f39d",
+            "name": "05102009207.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009207.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "24bd36be280b22a467e009d435880fba": {
+            "format": "jpg",
+            "id": "24bd36be280b22a467e009d435880fba",
+            "name": "05102009208.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009208.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1e8d0f686dbd617bda10733a304a1996": {
+            "format": "jpg",
+            "id": "1e8d0f686dbd617bda10733a304a1996",
+            "name": "05102009209.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009209.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4d7612b70e881836c1a0ddcd8be14439": {
+            "format": "jpg",
+            "id": "4d7612b70e881836c1a0ddcd8be14439",
+            "name": "05102009210.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009210.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bd3939a9b8dd5986186d98ac946c4baf": {
+            "format": "jpg",
+            "id": "bd3939a9b8dd5986186d98ac946c4baf",
+            "name": "05102009211.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009211.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "86d0c366f71a33cf560016691f06e27b": {
+            "format": "jpg",
+            "id": "86d0c366f71a33cf560016691f06e27b",
+            "name": "05102009212.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009212.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2a8768d06f015df5555a7045d4e1a7ff": {
+            "format": "jpg",
+            "id": "2a8768d06f015df5555a7045d4e1a7ff",
+            "name": "05102009213.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009213.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "626552287fa67d3f98948e7a80e5749a": {
+            "format": "jpg",
+            "id": "626552287fa67d3f98948e7a80e5749a",
+            "name": "05102009214.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009214.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9bd91d2f2675e8ee4353c07a37598177": {
+            "format": "jpg",
+            "id": "9bd91d2f2675e8ee4353c07a37598177",
+            "name": "05102009215.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009215.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dbda7df440135311abd2c4f5993c718a": {
+            "format": "jpg",
+            "id": "dbda7df440135311abd2c4f5993c718a",
+            "name": "05102009216.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009216.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6913a485a84a9ec8cdf5db92993ff1ce": {
+            "format": "jpg",
+            "id": "6913a485a84a9ec8cdf5db92993ff1ce",
+            "name": "05102009219.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009219.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "335d691e08e3181faf3a40950271a827": {
+            "format": "jpg",
+            "id": "335d691e08e3181faf3a40950271a827",
+            "name": "05102009218.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009218.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "305bbfac89ce2da88005f514cc943f3d": {
+            "format": "jpg",
+            "id": "305bbfac89ce2da88005f514cc943f3d",
+            "name": "05102009220.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009220.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ba1f4e428d3ff4620214bd75121caed2": {
+            "format": "jpg",
+            "id": "ba1f4e428d3ff4620214bd75121caed2",
+            "name": "05102009222.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009222.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "19349a4172883eb2f9566666bf0857a0": {
+            "format": "jpg",
+            "id": "19349a4172883eb2f9566666bf0857a0",
+            "name": "05102009223.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009223.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "81626ff5b615ae749a3af24b57f7ea9a": {
+            "format": "jpg",
+            "id": "81626ff5b615ae749a3af24b57f7ea9a",
+            "name": "05102009224.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009224.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3b72ad3c6e837aa1f12c80f7adf136dd": {
+            "format": "jpg",
+            "id": "3b72ad3c6e837aa1f12c80f7adf136dd",
+            "name": "05102009225.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009225.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b9afb8a37ed375524dcd2d7702812ba3": {
+            "format": "jpg",
+            "id": "b9afb8a37ed375524dcd2d7702812ba3",
+            "name": "05102009226.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009226.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "507c70a34c07506690464a4463b3bad6": {
+            "format": "jpg",
+            "id": "507c70a34c07506690464a4463b3bad6",
+            "name": "05102009227.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009227.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8b0c6a98f0d3e08dd5b8b06de1c92887": {
+            "format": "jpg",
+            "id": "8b0c6a98f0d3e08dd5b8b06de1c92887",
+            "name": "05102009228.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009228.jpg",
+            "size": {
+                "width": 1200,
+                "height": 1600
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f16014d4adaf18cee18c2d022f1c1535": {
+            "format": "jpg",
+            "id": "f16014d4adaf18cee18c2d022f1c1535",
+            "name": "05102009229.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/05102009229.jpg",
+            "size": {
+                "width": 1200,
+                "height": 1600
+            },
+            "state": 2,
+            "type": 1
+        },
+        "70ff825175253afe45fda32589fae2be": {
+            "format": "jpg",
+            "id": "70ff825175253afe45fda32589fae2be",
+            "name": "06102009240.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/06102009240.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "23577a887d54ef387aca50f9a5e1c66c": {
+            "format": "jpg",
+            "id": "23577a887d54ef387aca50f9a5e1c66c",
+            "name": "06102009241.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/06102009241.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2a2e5a89e689ac56463bc09835f1b3aa": {
+            "format": "jpg",
+            "id": "2a2e5a89e689ac56463bc09835f1b3aa",
+            "name": "06102009242.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/06102009242.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2a588c5866249c10a867218bb464a765": {
+            "format": "jpg",
+            "id": "2a588c5866249c10a867218bb464a765",
+            "name": "06102009243.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/06102009243.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "96539679b0f9d39c7f72e3f838496829": {
+            "format": "jpg",
+            "id": "96539679b0f9d39c7f72e3f838496829",
+            "name": "06102009244.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/06102009244.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "83d8d1486dfe172fdba6c5e7ceb23ea4": {
+            "format": "jpg",
+            "id": "83d8d1486dfe172fdba6c5e7ceb23ea4",
+            "name": "06102009245.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/06102009245.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "00467ccf2151c258439ef07d064a267e": {
+            "format": "jpg",
+            "id": "00467ccf2151c258439ef07d064a267e",
+            "name": "06102009246.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/06102009246.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ba3b4b369737f600147118fd0e55eee2": {
+            "format": "jpg",
+            "id": "ba3b4b369737f600147118fd0e55eee2",
+            "name": "06102009247.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/06102009247.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7c4066902715e221cd2fc43f52bbe491": {
+            "format": "jpg",
+            "id": "7c4066902715e221cd2fc43f52bbe491",
+            "name": "06102009248.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/06102009248.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cff09e1c94fe9c36c1dd58413c117703": {
+            "format": "jpg",
+            "id": "cff09e1c94fe9c36c1dd58413c117703",
+            "name": "06102009249.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/06102009249.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d229f704cf6ef7a08884bc03a11c1ccf": {
+            "format": "jpg",
+            "id": "d229f704cf6ef7a08884bc03a11c1ccf",
+            "name": "06102009250.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/06102009250.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ab31202bffb53ca5adfcdfaf5d2aaa2f": {
+            "format": "jpg",
+            "id": "ab31202bffb53ca5adfcdfaf5d2aaa2f",
+            "name": "06102009251.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/06102009251.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b979b65107b9aea5ee6f451e25948bbd": {
+            "format": "jpg",
+            "id": "b979b65107b9aea5ee6f451e25948bbd",
+            "name": "06102009252.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/06102009252.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ce5c4cdfb4e04e152154a4c428cf8175": {
+            "format": "jpg",
+            "id": "ce5c4cdfb4e04e152154a4c428cf8175",
+            "name": "06102009253.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/06102009253.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "df40ea7963bdfa550fc1dbc7bd3a4748": {
+            "format": "jpg",
+            "id": "df40ea7963bdfa550fc1dbc7bd3a4748",
+            "name": "06102009255.jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/06102009255.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "df17fa86496b54897b70a2c6e161a7f7": {
+            "format": "jpg",
+            "id": "df17fa86496b54897b70a2c6e161a7f7",
+            "name": "Foto(312).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(312).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d4d22b88e76a5a4fbc36ed592063d931": {
+            "format": "jpg",
+            "id": "d4d22b88e76a5a4fbc36ed592063d931",
+            "name": "Foto(406).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(406).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b0b9a13db2064bf4b1498f3b618138a7": {
+            "format": "jpg",
+            "id": "b0b9a13db2064bf4b1498f3b618138a7",
+            "name": "Foto(427).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(427).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fe17a848928c829121666e2188582b4a": {
+            "format": "jpg",
+            "id": "fe17a848928c829121666e2188582b4a",
+            "name": "Foto(477).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(477).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d105ae184aedc4e40155e15520ed97e2": {
+            "format": "jpg",
+            "id": "d105ae184aedc4e40155e15520ed97e2",
+            "name": "Foto(479).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(479).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "be40bc09240b21daa3d6f4264a3861f5": {
+            "format": "jpg",
+            "id": "be40bc09240b21daa3d6f4264a3861f5",
+            "name": "Foto(480).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(480).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7dc67d84509e9a5612a1416ca8b5147d": {
+            "format": "jpg",
+            "id": "7dc67d84509e9a5612a1416ca8b5147d",
+            "name": "Foto(481).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(481).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7870b2834b3363847b0b24c12e22981c": {
+            "format": "jpg",
+            "id": "7870b2834b3363847b0b24c12e22981c",
+            "name": "Foto(482).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(482).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9443445e6d9161fe481702fa8f2bd8d8": {
+            "format": "jpg",
+            "id": "9443445e6d9161fe481702fa8f2bd8d8",
+            "name": "Foto(483).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(483).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a91bb133eb219eeefde25d33a201bf35": {
+            "format": "jpg",
+            "id": "a91bb133eb219eeefde25d33a201bf35",
+            "name": "Foto(484).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(484).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3ec849752f4fe6a6cbe3913cc77fad8f": {
+            "format": "jpg",
+            "id": "3ec849752f4fe6a6cbe3913cc77fad8f",
+            "name": "Foto(487).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(487).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0394ccbbb5eec4496cc75a18b9ad5149": {
+            "format": "jpg",
+            "id": "0394ccbbb5eec4496cc75a18b9ad5149",
+            "name": "Foto(489).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(489).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0405356cc9c4e297ff90484e7ed0da96": {
+            "format": "jpg",
+            "id": "0405356cc9c4e297ff90484e7ed0da96",
+            "name": "Foto(495).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(495).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "821dbed1d12f8b3b873c677e00673338": {
+            "format": "jpg",
+            "id": "821dbed1d12f8b3b873c677e00673338",
+            "name": "Foto(496).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(496).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cfd45dd7192bd16e5f235f0ffa6103a0": {
+            "format": "jpg",
+            "id": "cfd45dd7192bd16e5f235f0ffa6103a0",
+            "name": "Foto(501).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(501).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3dfe2303677f5da4b1c33928a95a979a": {
+            "format": "jpg",
+            "id": "3dfe2303677f5da4b1c33928a95a979a",
+            "name": "Foto(502).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(502).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "979b3cb9d2e6fb1c45b97b3fee841a27": {
+            "format": "jpg",
+            "id": "979b3cb9d2e6fb1c45b97b3fee841a27",
+            "name": "Foto(503).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(503).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8f836305071de71fe83b35ddc232e458": {
+            "format": "jpg",
+            "id": "8f836305071de71fe83b35ddc232e458",
+            "name": "Foto(504).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(504).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1abca8e5014c99c7389b8373f67a1480": {
+            "format": "jpg",
+            "id": "1abca8e5014c99c7389b8373f67a1480",
+            "name": "Foto(505).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(505).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "05d514d567c26812122b685f635ef841": {
+            "format": "jpg",
+            "id": "05d514d567c26812122b685f635ef841",
+            "name": "Foto(506).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(506).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e91aa1fa20285acd5eda4b539b8d3174": {
+            "format": "jpg",
+            "id": "e91aa1fa20285acd5eda4b539b8d3174",
+            "name": "Foto(507).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(507).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dd8b24af4a2bd90c1ba170e2e4aa6c47": {
+            "format": "jpg",
+            "id": "dd8b24af4a2bd90c1ba170e2e4aa6c47",
+            "name": "Foto(508).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(508).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dd7eb5cc4d45667008a5180ea81d8515": {
+            "format": "jpg",
+            "id": "dd7eb5cc4d45667008a5180ea81d8515",
+            "name": "Foto(510).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(510).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0c4479ebfbf2316424313c841b3716f1": {
+            "format": "jpg",
+            "id": "0c4479ebfbf2316424313c841b3716f1",
+            "name": "Foto(512).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(512).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c5cc06f1a8326775ee7369734c1c1767": {
+            "format": "jpg",
+            "id": "c5cc06f1a8326775ee7369734c1c1767",
+            "name": "Foto(515).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(515).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3002fabafe81ebcb576ff1ed10a62b37": {
+            "format": "jpg",
+            "id": "3002fabafe81ebcb576ff1ed10a62b37",
+            "name": "Foto(516).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(516).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "67baff8e2d2b4b165554d72167dbc554": {
+            "format": "jpg",
+            "id": "67baff8e2d2b4b165554d72167dbc554",
+            "name": "Foto(518).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(518).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6a86600047fabdded18a5f8d69ccfa65": {
+            "format": "jpg",
+            "id": "6a86600047fabdded18a5f8d69ccfa65",
+            "name": "Foto(519).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(519).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7e7a5cce39776ac620e00018510f9267": {
+            "format": "jpg",
+            "id": "7e7a5cce39776ac620e00018510f9267",
+            "name": "Foto(533).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(533).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "90bc6655da946c6cc66d6d7924da265e": {
+            "format": "jpg",
+            "id": "90bc6655da946c6cc66d6d7924da265e",
+            "name": "Foto(534).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(534).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1039250bb44c56d304b76abd450127bb": {
+            "format": "jpg",
+            "id": "1039250bb44c56d304b76abd450127bb",
+            "name": "Foto(535).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(535).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c8d5f334cb964508c47fd8548d5c2548": {
+            "format": "jpg",
+            "id": "c8d5f334cb964508c47fd8548d5c2548",
+            "name": "Foto(536).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(536).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "139471464769e4de8b6da10e15fff624": {
+            "format": "jpg",
+            "id": "139471464769e4de8b6da10e15fff624",
+            "name": "Foto(539).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(539).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "38bbdf962debfb09467ec6664e090d89": {
+            "format": "jpg",
+            "id": "38bbdf962debfb09467ec6664e090d89",
+            "name": "Foto(537).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(537).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ae7feeb5f8223ab12c19ad7793d7feb4": {
+            "format": "jpg",
+            "id": "ae7feeb5f8223ab12c19ad7793d7feb4",
+            "name": "Foto(542).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(542).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "939713a4d258f56e99ab71e5e907e820": {
+            "format": "jpg",
+            "id": "939713a4d258f56e99ab71e5e907e820",
+            "name": "Foto(543).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(543).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "11b5e4ed6ad8fc37ba909c3797d81224": {
+            "format": "jpg",
+            "id": "11b5e4ed6ad8fc37ba909c3797d81224",
+            "name": "Foto(546).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(546).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "760ff70feea828955dc058f369a96fe7": {
+            "format": "jpg",
+            "id": "760ff70feea828955dc058f369a96fe7",
+            "name": "Foto(549).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(549).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0425cfa4bcded871bf4c2bdba2288077": {
+            "format": "jpg",
+            "id": "0425cfa4bcded871bf4c2bdba2288077",
+            "name": "Foto(550).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(550).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9b5076c071fdcc87bf0c17c889b07cf6": {
+            "format": "jpg",
+            "id": "9b5076c071fdcc87bf0c17c889b07cf6",
+            "name": "Foto(551).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(551).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6d08a4a855ff232a4d89cb4847ac303a": {
+            "format": "jpg",
+            "id": "6d08a4a855ff232a4d89cb4847ac303a",
+            "name": "Foto(552).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(552).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a18a8858a05f03b2efb5ea3420f6195a": {
+            "format": "jpg",
+            "id": "a18a8858a05f03b2efb5ea3420f6195a",
+            "name": "Foto(553).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(553).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3dff6869cf5f122c66b57fd1bdf8079c": {
+            "format": "jpg",
+            "id": "3dff6869cf5f122c66b57fd1bdf8079c",
+            "name": "Foto(555).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(555).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "18bb7161a779ecebb88cdeb170291b43": {
+            "format": "jpg",
+            "id": "18bb7161a779ecebb88cdeb170291b43",
+            "name": "Foto(556).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(556).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0380395cd20d7b07017f931bdc1b9ad8": {
+            "format": "jpg",
+            "id": "0380395cd20d7b07017f931bdc1b9ad8",
+            "name": "Foto(558).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(558).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1e667abb21a50f599f3b252d2d9bff3f": {
+            "format": "jpg",
+            "id": "1e667abb21a50f599f3b252d2d9bff3f",
+            "name": "Foto(563).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(563).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "977ecaf0150d16707de7d5aa37a8277b": {
+            "format": "jpg",
+            "id": "977ecaf0150d16707de7d5aa37a8277b",
+            "name": "Foto(567).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(567).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a49252b5b5c88a3600e894c870797790": {
+            "format": "jpg",
+            "id": "a49252b5b5c88a3600e894c870797790",
+            "name": "Foto(568).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(568).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "80d9ac9f914c38177178b288f2105f3c": {
+            "format": "jpg",
+            "id": "80d9ac9f914c38177178b288f2105f3c",
+            "name": "Foto(573).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(573).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "64d26cab8bc12c359844b3956dab8e2f": {
+            "format": "jpg",
+            "id": "64d26cab8bc12c359844b3956dab8e2f",
+            "name": "Foto(574).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(574).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d738c220bcffec41cd1ed234880b7511": {
+            "format": "jpg",
+            "id": "d738c220bcffec41cd1ed234880b7511",
+            "name": "Foto(675).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(675).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "12ebad9379ae214d2286069d1aea48db": {
+            "format": "jpg",
+            "id": "12ebad9379ae214d2286069d1aea48db",
+            "name": "Foto(676).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(676).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e570a08789dee4324b049d8122612e87": {
+            "format": "jpg",
+            "id": "e570a08789dee4324b049d8122612e87",
+            "name": "Foto(677).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(677).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2151899d918a25956ffd36e9e2eabade": {
+            "format": "jpg",
+            "id": "2151899d918a25956ffd36e9e2eabade",
+            "name": "Foto(678).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(678).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c58a84db8169ef8a86cfce5f30b7d013": {
+            "format": "jpg",
+            "id": "c58a84db8169ef8a86cfce5f30b7d013",
+            "name": "Foto(679).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(679).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1b9941fce976c04f87cc98a800f159c4": {
+            "format": "jpg",
+            "id": "1b9941fce976c04f87cc98a800f159c4",
+            "name": "Foto(680).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(680).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a1fb1078a7103ec20a4a909f832c4f30": {
+            "format": "jpg",
+            "id": "a1fb1078a7103ec20a4a909f832c4f30",
+            "name": "Foto(681).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(681).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f7c11b8c804b458d18eda30a213e43b3": {
+            "format": "jpg",
+            "id": "f7c11b8c804b458d18eda30a213e43b3",
+            "name": "Foto(682).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(682).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4ab6dd25725d8d733b69744f4b005aa4": {
+            "format": "jpg",
+            "id": "4ab6dd25725d8d733b69744f4b005aa4",
+            "name": "Foto(683).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(683).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "20ac5bccd043dcb6c3044e87638f5076": {
+            "format": "jpg",
+            "id": "20ac5bccd043dcb6c3044e87638f5076",
+            "name": "Foto(684).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(684).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "83e03645da5ddab0971eec50ba5c348d": {
+            "format": "jpg",
+            "id": "83e03645da5ddab0971eec50ba5c348d",
+            "name": "Foto(685).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(685).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "30623781227aa01fc2d6d358cfc1ede8": {
+            "format": "jpg",
+            "id": "30623781227aa01fc2d6d358cfc1ede8",
+            "name": "Foto(686).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(686).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e4ea73028ee835ee493d504dc4bdf4dd": {
+            "format": "jpg",
+            "id": "e4ea73028ee835ee493d504dc4bdf4dd",
+            "name": "Foto(687).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(687).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f1328e396f9dc031c0f56e86b5d3c377": {
+            "format": "jpg",
+            "id": "f1328e396f9dc031c0f56e86b5d3c377",
+            "name": "Foto(688).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(688).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dc0520b2d6ffaee426adfda031df79aa": {
+            "format": "jpg",
+            "id": "dc0520b2d6ffaee426adfda031df79aa",
+            "name": "Foto(689).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(689).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d016ad389a1a1da4b928f7486901af8a": {
+            "format": "jpg",
+            "id": "d016ad389a1a1da4b928f7486901af8a",
+            "name": "Foto(690).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(690).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2b01540c53830f14c785f0cb547d2347": {
+            "format": "jpg",
+            "id": "2b01540c53830f14c785f0cb547d2347",
+            "name": "Foto(691).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(691).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b0cc98c89532bb240136a27a57627ba7": {
+            "format": "jpg",
+            "id": "b0cc98c89532bb240136a27a57627ba7",
+            "name": "Foto(692).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(692).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e3f11a6af99b9201f49cb6a7400fc976": {
+            "format": "jpg",
+            "id": "e3f11a6af99b9201f49cb6a7400fc976",
+            "name": "Foto(693).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(693).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ec5c0aef6f7eb47c47d02da98468daf0": {
+            "format": "jpg",
+            "id": "ec5c0aef6f7eb47c47d02da98468daf0",
+            "name": "Foto(694).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(694).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cf9f7f496195db9126626ff34b539eb5": {
+            "format": "jpg",
+            "id": "cf9f7f496195db9126626ff34b539eb5",
+            "name": "Foto(695).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(695).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "88bb9092fbab50a995c3fe1247be8615": {
+            "format": "jpg",
+            "id": "88bb9092fbab50a995c3fe1247be8615",
+            "name": "Foto(696).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(696).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "45ebdc810297914526694e4b5407ac1a": {
+            "format": "jpg",
+            "id": "45ebdc810297914526694e4b5407ac1a",
+            "name": "Foto(697).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(697).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6c7b8d2302828cad17c82e4be89697ab": {
+            "format": "jpg",
+            "id": "6c7b8d2302828cad17c82e4be89697ab",
+            "name": "Foto(698).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(698).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4b44f62c40d545ee3d4a6e77a26065f4": {
+            "format": "jpg",
+            "id": "4b44f62c40d545ee3d4a6e77a26065f4",
+            "name": "Foto(700).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(700).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b319d47b6fd05168c963021cd02c19e4": {
+            "format": "jpg",
+            "id": "b319d47b6fd05168c963021cd02c19e4",
+            "name": "Foto(701).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(701).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ee063a1a824f157bfc34249a4fddb82a": {
+            "format": "jpg",
+            "id": "ee063a1a824f157bfc34249a4fddb82a",
+            "name": "Foto(702).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(702).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "170637acf174e297790d97f94f6ab329": {
+            "format": "jpg",
+            "id": "170637acf174e297790d97f94f6ab329",
+            "name": "Foto(703).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(703).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b3b458db26167ae369b7690aef007325": {
+            "format": "jpg",
+            "id": "b3b458db26167ae369b7690aef007325",
+            "name": "Foto(704).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(704).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c0fffc7a50fa6666eebef2d40f46940c": {
+            "format": "jpg",
+            "id": "c0fffc7a50fa6666eebef2d40f46940c",
+            "name": "Foto(705).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(705).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2c9f0bd94042b3d67dd070b3a983b539": {
+            "format": "jpg",
+            "id": "2c9f0bd94042b3d67dd070b3a983b539",
+            "name": "Foto(706).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(706).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a98b93d7e1e269b5b21c1133ba7e34f3": {
+            "format": "jpg",
+            "id": "a98b93d7e1e269b5b21c1133ba7e34f3",
+            "name": "Foto(707).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(707).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "503b31d8e05df8521d36001cfd0a7909": {
+            "format": "jpg",
+            "id": "503b31d8e05df8521d36001cfd0a7909",
+            "name": "Foto(708).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(708).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d3c850918b25f58181393ee4b9d862c9": {
+            "format": "jpg",
+            "id": "d3c850918b25f58181393ee4b9d862c9",
+            "name": "Foto(709).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(709).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c5a11645ecfd5e85014c86d0f86bb4d5": {
+            "format": "jpg",
+            "id": "c5a11645ecfd5e85014c86d0f86bb4d5",
+            "name": "Foto(710).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(710).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b2e9f5f9a75656495eb9f426a43ebcca": {
+            "format": "jpg",
+            "id": "b2e9f5f9a75656495eb9f426a43ebcca",
+            "name": "Foto(711).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(711).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "48f18056ea8388e2765c655aebc2a53b": {
+            "format": "jpg",
+            "id": "48f18056ea8388e2765c655aebc2a53b",
+            "name": "Foto(712).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(712).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cecdbf13dd361123e5c9c54666e38b1c": {
+            "format": "jpg",
+            "id": "cecdbf13dd361123e5c9c54666e38b1c",
+            "name": "Foto(713).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(713).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0e3b8202412ad581c7fe31683993e5e2": {
+            "format": "jpg",
+            "id": "0e3b8202412ad581c7fe31683993e5e2",
+            "name": "Foto(714).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(714).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c8883a47dcbe01f21e6ca5ea387cf24f": {
+            "format": "jpg",
+            "id": "c8883a47dcbe01f21e6ca5ea387cf24f",
+            "name": "Foto(715).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(715).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1d66ebf3a6c03a4963506c3bbe36ca61": {
+            "format": "jpg",
+            "id": "1d66ebf3a6c03a4963506c3bbe36ca61",
+            "name": "Foto(716).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(716).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1c21a8f83ae107eade9d7df4a72c927d": {
+            "format": "jpg",
+            "id": "1c21a8f83ae107eade9d7df4a72c927d",
+            "name": "Foto(717).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(717).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2eebb30014742f1af5ac5190b6af9054": {
+            "format": "jpg",
+            "id": "2eebb30014742f1af5ac5190b6af9054",
+            "name": "Foto(718).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(718).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e37fed33664ad3c9f980ba3e75e1f14f": {
+            "format": "jpg",
+            "id": "e37fed33664ad3c9f980ba3e75e1f14f",
+            "name": "Foto(719).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(719).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a0956bad92fb8cce846d0e500bf60fa0": {
+            "format": "jpg",
+            "id": "a0956bad92fb8cce846d0e500bf60fa0",
+            "name": "Foto(720).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(720).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ad4dc2273c33795005464ee5cc691ad8": {
+            "format": "jpg",
+            "id": "ad4dc2273c33795005464ee5cc691ad8",
+            "name": "Foto(721).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(721).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5182c9bfe75130414d6b0c4756d0b38f": {
+            "format": "jpg",
+            "id": "5182c9bfe75130414d6b0c4756d0b38f",
+            "name": "Foto(722).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(722).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "98349a6eebca1f43db363336db853962": {
+            "format": "jpg",
+            "id": "98349a6eebca1f43db363336db853962",
+            "name": "Foto(723).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(723).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "174c049f2c6acddf3a8504ff598755f1": {
+            "format": "jpg",
+            "id": "174c049f2c6acddf3a8504ff598755f1",
+            "name": "Foto(724).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(724).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "21dd1779e68e86572304680463538a47": {
+            "format": "jpg",
+            "id": "21dd1779e68e86572304680463538a47",
+            "name": "Foto(725).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(725).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f1a62c1ec14c336a0b13258038c5f99a": {
+            "format": "jpg",
+            "id": "f1a62c1ec14c336a0b13258038c5f99a",
+            "name": "Foto(726).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(726).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b5916191b56d29fdc52fc0bd445fd886": {
+            "format": "jpg",
+            "id": "b5916191b56d29fdc52fc0bd445fd886",
+            "name": "Foto(727).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(727).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f670e1f4fdb97cb3e970ac3399b7768d": {
+            "format": "jpg",
+            "id": "f670e1f4fdb97cb3e970ac3399b7768d",
+            "name": "Foto(728).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(728).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b5e2316b40ed96a5fcf55d39d8f0a4e1": {
+            "format": "jpg",
+            "id": "b5e2316b40ed96a5fcf55d39d8f0a4e1",
+            "name": "Foto(729).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(729).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0f7d0a5ec9ac0eae6b8477d6dfd6a55b": {
+            "format": "jpg",
+            "id": "0f7d0a5ec9ac0eae6b8477d6dfd6a55b",
+            "name": "Foto(730).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(730).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "db84725d9d2d897fe301d23e83398f07": {
+            "format": "jpg",
+            "id": "db84725d9d2d897fe301d23e83398f07",
+            "name": "Foto(731).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(731).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "36df2a2b02d1ac76c931e46143a27ce0": {
+            "format": "jpg",
+            "id": "36df2a2b02d1ac76c931e46143a27ce0",
+            "name": "Foto(732).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(732).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b609e928dd229ccbf86fe4a1ba6bc5a7": {
+            "format": "jpg",
+            "id": "b609e928dd229ccbf86fe4a1ba6bc5a7",
+            "name": "Foto(733).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(733).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f1797ef6207a21c44de8ba59b332eaf8": {
+            "format": "jpg",
+            "id": "f1797ef6207a21c44de8ba59b332eaf8",
+            "name": "Foto(734).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(734).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8b586a5db81bc020735c6cee2e9f7535": {
+            "format": "jpg",
+            "id": "8b586a5db81bc020735c6cee2e9f7535",
+            "name": "Foto(735).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(735).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "245904243a9b3273230cd5bfdcd1e092": {
+            "format": "jpg",
+            "id": "245904243a9b3273230cd5bfdcd1e092",
+            "name": "Foto(736).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(736).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4774718d8118a2d0bb2c5d9d21163342": {
+            "format": "jpg",
+            "id": "4774718d8118a2d0bb2c5d9d21163342",
+            "name": "Foto(737).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(737).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "122124bc71af1ae57d1813a3f2b0b40e": {
+            "format": "jpg",
+            "id": "122124bc71af1ae57d1813a3f2b0b40e",
+            "name": "Foto(738).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(738).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c69f3bcd9468864e8d30a3b64e195322": {
+            "format": "jpg",
+            "id": "c69f3bcd9468864e8d30a3b64e195322",
+            "name": "Foto(739).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(739).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "452b83b7f835c5830ab6e36e028f1f68": {
+            "format": "jpg",
+            "id": "452b83b7f835c5830ab6e36e028f1f68",
+            "name": "Foto(740).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(740).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f85d7187d5ebee4f7de5a1f3549931ed": {
+            "format": "jpg",
+            "id": "f85d7187d5ebee4f7de5a1f3549931ed",
+            "name": "Foto(741).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(741).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2f724fbe8415c007ceaa7703d062f3f6": {
+            "format": "jpg",
+            "id": "2f724fbe8415c007ceaa7703d062f3f6",
+            "name": "Foto(742).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(742).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7c0dbb0690057dbf83453f36b392f3fa": {
+            "format": "jpg",
+            "id": "7c0dbb0690057dbf83453f36b392f3fa",
+            "name": "Foto(743).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(743).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "057b81ddd457fe2fe592b2648bf20a86": {
+            "format": "jpg",
+            "id": "057b81ddd457fe2fe592b2648bf20a86",
+            "name": "Foto(744).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(744).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c630d92bf4c5c6398ad8eb0f4ae6f83d": {
+            "format": "jpg",
+            "id": "c630d92bf4c5c6398ad8eb0f4ae6f83d",
+            "name": "Foto(745).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(745).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c6c6ee25ed7886c9274e37ae0a7ea6ef": {
+            "format": "jpg",
+            "id": "c6c6ee25ed7886c9274e37ae0a7ea6ef",
+            "name": "Foto(746).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(746).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a321c41f589247963082ba4d3dfe98c4": {
+            "format": "jpg",
+            "id": "a321c41f589247963082ba4d3dfe98c4",
+            "name": "Foto(747).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(747).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3e8377326788d115371aeab976a068f8": {
+            "format": "jpg",
+            "id": "3e8377326788d115371aeab976a068f8",
+            "name": "Foto(749).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(749).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ae4a71ead2b8b295455dc8187a90156e": {
+            "format": "jpg",
+            "id": "ae4a71ead2b8b295455dc8187a90156e",
+            "name": "Foto(750).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(750).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f3529428332da032902f9623861227e3": {
+            "format": "jpg",
+            "id": "f3529428332da032902f9623861227e3",
+            "name": "Foto(751).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(751).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "388c502c52396f2771684c38e70dc883": {
+            "format": "jpg",
+            "id": "388c502c52396f2771684c38e70dc883",
+            "name": "Foto(752).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(752).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1d7392a2bc59897fb78a1d2b96f5afa0": {
+            "format": "jpg",
+            "id": "1d7392a2bc59897fb78a1d2b96f5afa0",
+            "name": "Foto(753).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(753).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f4113c7b9b9e34def9405a94302cd881": {
+            "format": "jpg",
+            "id": "f4113c7b9b9e34def9405a94302cd881",
+            "name": "Foto(754).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(754).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0e6ce67f1e46315101cc0560582593dd": {
+            "format": "jpg",
+            "id": "0e6ce67f1e46315101cc0560582593dd",
+            "name": "Foto(755).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(755).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6cf2de513f4a9fc3ab68864f3ad01fd5": {
+            "format": "jpg",
+            "id": "6cf2de513f4a9fc3ab68864f3ad01fd5",
+            "name": "Foto(756).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(756).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2ad3a08f887d500a5192fedfb6132f34": {
+            "format": "jpg",
+            "id": "2ad3a08f887d500a5192fedfb6132f34",
+            "name": "Foto(757).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(757).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b5f996b04ae96b2e4fce7966b577989a": {
+            "format": "jpg",
+            "id": "b5f996b04ae96b2e4fce7966b577989a",
+            "name": "Foto(758).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(758).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "298d693f9e8df31ffe1a07e47ef073bb": {
+            "format": "jpg",
+            "id": "298d693f9e8df31ffe1a07e47ef073bb",
+            "name": "Foto(759).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(759).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d4764fe4cb2eb587caa0ac527d6d488c": {
+            "format": "jpg",
+            "id": "d4764fe4cb2eb587caa0ac527d6d488c",
+            "name": "Foto(760).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(760).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c0093fab1bc514ad5bb5f22f19ec860c": {
+            "format": "jpg",
+            "id": "c0093fab1bc514ad5bb5f22f19ec860c",
+            "name": "Foto(761).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(761).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "97eb601c1e6eb68d74853ec624dbd416": {
+            "format": "jpg",
+            "id": "97eb601c1e6eb68d74853ec624dbd416",
+            "name": "Foto(762).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(762).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c5b7058e768c59e782e13b19131208fb": {
+            "format": "jpg",
+            "id": "c5b7058e768c59e782e13b19131208fb",
+            "name": "Foto(763).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(763).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d5861e681fe38fc0081e10f637909906": {
+            "format": "jpg",
+            "id": "d5861e681fe38fc0081e10f637909906",
+            "name": "Foto(764).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(764).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9ba04ed37fc890b9bfb42aed39cb8293": {
+            "format": "jpg",
+            "id": "9ba04ed37fc890b9bfb42aed39cb8293",
+            "name": "Foto(765).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(765).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1b1ce486881d23c17eceab16ff3791d7": {
+            "format": "jpg",
+            "id": "1b1ce486881d23c17eceab16ff3791d7",
+            "name": "Foto(766).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(766).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e4decaa70af398405a32457e35c930a4": {
+            "format": "jpg",
+            "id": "e4decaa70af398405a32457e35c930a4",
+            "name": "Foto(767).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(767).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "88a7f1e78c881b24c56b277a3727be1b": {
+            "format": "jpg",
+            "id": "88a7f1e78c881b24c56b277a3727be1b",
+            "name": "Foto(768).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(768).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3ef219f2d89c952e6dccb120a13b92c1": {
+            "format": "jpg",
+            "id": "3ef219f2d89c952e6dccb120a13b92c1",
+            "name": "Foto(769).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(769).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ab34eca7d3b6d6ac46e35297a135c9d": {
+            "format": "jpg",
+            "id": "1ab34eca7d3b6d6ac46e35297a135c9d",
+            "name": "Foto(770).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(770).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "281d270ed812832c897a84eff7b29534": {
+            "format": "jpg",
+            "id": "281d270ed812832c897a84eff7b29534",
+            "name": "Foto(771).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(771).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7b363a2fda68f0bf76b709aa1170d564": {
+            "format": "jpg",
+            "id": "7b363a2fda68f0bf76b709aa1170d564",
+            "name": "Foto(772).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(772).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5f5082c60f49604811c222b635158c5b": {
+            "format": "jpg",
+            "id": "5f5082c60f49604811c222b635158c5b",
+            "name": "Foto(773).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(773).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5b98a9f65784884480425bd7ad689c5f": {
+            "format": "jpg",
+            "id": "5b98a9f65784884480425bd7ad689c5f",
+            "name": "Foto(774).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(774).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b7fd9dd21e76572ddb664a13d01968a5": {
+            "format": "jpg",
+            "id": "b7fd9dd21e76572ddb664a13d01968a5",
+            "name": "Foto(775).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(775).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2d52e20cc96ea7ccfc595d448d3fbf0e": {
+            "format": "jpg",
+            "id": "2d52e20cc96ea7ccfc595d448d3fbf0e",
+            "name": "Foto(776).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(776).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "943e18b4b8ad1797a029c2852b27488e": {
+            "format": "jpg",
+            "id": "943e18b4b8ad1797a029c2852b27488e",
+            "name": "Foto(777).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(777).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7953b08abb31691d42d3bbecd26c36cb": {
+            "format": "jpg",
+            "id": "7953b08abb31691d42d3bbecd26c36cb",
+            "name": "Foto(778).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(778).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9c398f8a280c9c10df2396b1af6552b3": {
+            "format": "jpg",
+            "id": "9c398f8a280c9c10df2396b1af6552b3",
+            "name": "Foto(779).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(779).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "49ea2cf04e7b4578c9f74b0bcda247f1": {
+            "format": "jpg",
+            "id": "49ea2cf04e7b4578c9f74b0bcda247f1",
+            "name": "Foto(780).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(780).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bd3db30d4257be9569cac66c5b031c6c": {
+            "format": "jpg",
+            "id": "bd3db30d4257be9569cac66c5b031c6c",
+            "name": "Foto(781).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(781).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5494bb968545c494289e49493b0a6f3e": {
+            "format": "jpg",
+            "id": "5494bb968545c494289e49493b0a6f3e",
+            "name": "Foto(782).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(782).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a7c66dacf785ab2be77d6ba68ce90a34": {
+            "format": "jpg",
+            "id": "a7c66dacf785ab2be77d6ba68ce90a34",
+            "name": "Foto(783).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(783).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "75fccad7df77acbc937d72fda1d0bc0e": {
+            "format": "jpg",
+            "id": "75fccad7df77acbc937d72fda1d0bc0e",
+            "name": "Foto(784).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(784).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3546480636a40599dbbace04ce920ede": {
+            "format": "jpg",
+            "id": "3546480636a40599dbbace04ce920ede",
+            "name": "Foto(785).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(785).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7e0bca401f180d6c56f36ed2ad53817d": {
+            "format": "jpg",
+            "id": "7e0bca401f180d6c56f36ed2ad53817d",
+            "name": "Foto(786).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(786).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "926647cf15709ad17767558ed536fe4b": {
+            "format": "jpg",
+            "id": "926647cf15709ad17767558ed536fe4b",
+            "name": "Foto(787).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(787).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "32b2a75f74453b6868e50832dbe2df3b": {
+            "format": "jpg",
+            "id": "32b2a75f74453b6868e50832dbe2df3b",
+            "name": "Foto(788).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(788).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "03c4803a1cd44b3ec45b27fd4c5b4d73": {
+            "format": "jpg",
+            "id": "03c4803a1cd44b3ec45b27fd4c5b4d73",
+            "name": "Foto(789).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(789).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "78092fc21b7edc7e6c7b5aca3b31490f": {
+            "format": "jpg",
+            "id": "78092fc21b7edc7e6c7b5aca3b31490f",
+            "name": "Foto(790).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(790).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b171e9d0a126e2ba6eb92585afb23c66": {
+            "format": "jpg",
+            "id": "b171e9d0a126e2ba6eb92585afb23c66",
+            "name": "Foto(791).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(791).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d91a99ddb5f48eccedb32e8eed7a08c4": {
+            "format": "jpg",
+            "id": "d91a99ddb5f48eccedb32e8eed7a08c4",
+            "name": "Foto(792).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(792).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "00d6963c907ba196e6c3032da6fe292e": {
+            "format": "jpg",
+            "id": "00d6963c907ba196e6c3032da6fe292e",
+            "name": "Foto(793).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(793).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6ceae5ef56f5637ae0d74aaef1d6e63e": {
+            "format": "jpg",
+            "id": "6ceae5ef56f5637ae0d74aaef1d6e63e",
+            "name": "Foto(794).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(794).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9d7d060bf0212f160e19bc32d3094bca": {
+            "format": "jpg",
+            "id": "9d7d060bf0212f160e19bc32d3094bca",
+            "name": "Foto(795).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(795).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5d39ee0481e66edc3a3bd3f9893890b3": {
+            "format": "jpg",
+            "id": "5d39ee0481e66edc3a3bd3f9893890b3",
+            "name": "Foto(796).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(796).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e2a3930f8f1ea3be21062bd5bb53f7dd": {
+            "format": "jpg",
+            "id": "e2a3930f8f1ea3be21062bd5bb53f7dd",
+            "name": "Foto(798).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(798).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a77fb5f9e07c1d3d8fe495fc3085c272": {
+            "format": "jpg",
+            "id": "a77fb5f9e07c1d3d8fe495fc3085c272",
+            "name": "Foto(799).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(799).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "89dfb4f177da40ce8e96d999a3eb2311": {
+            "format": "jpg",
+            "id": "89dfb4f177da40ce8e96d999a3eb2311",
+            "name": "Foto(800).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(800).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7b0722edc29b54a66b1242f8d67f80b3": {
+            "format": "jpg",
+            "id": "7b0722edc29b54a66b1242f8d67f80b3",
+            "name": "Foto(801).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(801).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "913da7c19825938ad80e43efcaf2ca72": {
+            "format": "jpg",
+            "id": "913da7c19825938ad80e43efcaf2ca72",
+            "name": "Foto(802).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(802).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9fa5e4c8a68fde093ba8fd20c13b2952": {
+            "format": "jpg",
+            "id": "9fa5e4c8a68fde093ba8fd20c13b2952",
+            "name": "Foto(803).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(803).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c6c6e56a3c6a3ceff6da35fe3df2a37e": {
+            "format": "jpg",
+            "id": "c6c6e56a3c6a3ceff6da35fe3df2a37e",
+            "name": "Foto(804).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(804).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c5f9951d696251c5c29c49fe0601d0c4": {
+            "format": "jpg",
+            "id": "c5f9951d696251c5c29c49fe0601d0c4",
+            "name": "Foto(806).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(806).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "56b574a582a2fc9f2d0b53900cf170d1": {
+            "format": "jpg",
+            "id": "56b574a582a2fc9f2d0b53900cf170d1",
+            "name": "Foto(811).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(811).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "feb921b97bf533922a3819242f33bea4": {
+            "format": "jpg",
+            "id": "feb921b97bf533922a3819242f33bea4",
+            "name": "Foto(812).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(812).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2ac7de61107e212b9139f26ad4f0b06a": {
+            "format": "jpg",
+            "id": "2ac7de61107e212b9139f26ad4f0b06a",
+            "name": "Foto(814).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(814).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "102929055ff6ec06ed3f5f94ce6e8f92": {
+            "format": "jpg",
+            "id": "102929055ff6ec06ed3f5f94ce6e8f92",
+            "name": "Foto(815).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(815).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "61b73b15549119cfdf37d7c22dd2e42c": {
+            "format": "jpg",
+            "id": "61b73b15549119cfdf37d7c22dd2e42c",
+            "name": "Foto(816).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(816).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d705be5ddf261bf23567b9af66bab75d": {
+            "format": "jpg",
+            "id": "d705be5ddf261bf23567b9af66bab75d",
+            "name": "Foto(817).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(817).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0a7a577ab865c47a467716f0dcea1ebc": {
+            "format": "jpg",
+            "id": "0a7a577ab865c47a467716f0dcea1ebc",
+            "name": "Foto(818).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(818).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "013925a79562ec5234283a0dbf6bb672": {
+            "format": "jpg",
+            "id": "013925a79562ec5234283a0dbf6bb672",
+            "name": "Foto(819).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(819).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4a69c5d574dcc141491ed00552bbabac": {
+            "format": "jpg",
+            "id": "4a69c5d574dcc141491ed00552bbabac",
+            "name": "Foto(820).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(820).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "07aa5a1a9f91d5b62876bd02ab9a9b86": {
+            "format": "jpg",
+            "id": "07aa5a1a9f91d5b62876bd02ab9a9b86",
+            "name": "Foto(822).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(822).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b2bced309047ee49a1d2d450e9ff558d": {
+            "format": "jpg",
+            "id": "b2bced309047ee49a1d2d450e9ff558d",
+            "name": "Foto(823).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(823).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fb6e0b127625c7506fb11e719787478c": {
+            "format": "jpg",
+            "id": "fb6e0b127625c7506fb11e719787478c",
+            "name": "Foto(824).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(824).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5e7a5ddf0a95724d7fa06ff986595c0a": {
+            "format": "jpg",
+            "id": "5e7a5ddf0a95724d7fa06ff986595c0a",
+            "name": "Foto(825).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(825).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "19c550f546bf9b03c0f139bc02dcb717": {
+            "format": "jpg",
+            "id": "19c550f546bf9b03c0f139bc02dcb717",
+            "name": "Foto(827).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(827).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "58df052d280ffb7b2c4f6c3beb4560b8": {
+            "format": "jpg",
+            "id": "58df052d280ffb7b2c4f6c3beb4560b8",
+            "name": "Foto(828).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(828).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fa3d7840ab205ad31d215e8471c62339": {
+            "format": "jpg",
+            "id": "fa3d7840ab205ad31d215e8471c62339",
+            "name": "Foto(829).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(829).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3bbbc240d833cb6f15ccebc5253c45ac": {
+            "format": "jpg",
+            "id": "3bbbc240d833cb6f15ccebc5253c45ac",
+            "name": "Foto(830).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(830).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "550461716643b00f581eae7b4202e2af": {
+            "format": "jpg",
+            "id": "550461716643b00f581eae7b4202e2af",
+            "name": "Foto(831).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(831).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "80d963b882ce45d2845d3ef1c5a73a33": {
+            "format": "jpg",
+            "id": "80d963b882ce45d2845d3ef1c5a73a33",
+            "name": "Foto(835).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(835).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6297da931bb88e4d0e8a10a7f71bf545": {
+            "format": "jpg",
+            "id": "6297da931bb88e4d0e8a10a7f71bf545",
+            "name": "Foto(836).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(836).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b4ae55621356405979d8e125ed1f09a0": {
+            "format": "jpg",
+            "id": "b4ae55621356405979d8e125ed1f09a0",
+            "name": "Foto(837).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(837).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e900f2253404797b8430cd5b5030a049": {
+            "format": "jpg",
+            "id": "e900f2253404797b8430cd5b5030a049",
+            "name": "Foto(839).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(839).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4bd9f19e4834fd0133df79658ee8e717": {
+            "format": "jpg",
+            "id": "4bd9f19e4834fd0133df79658ee8e717",
+            "name": "Foto(840).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(840).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "72512c709afb77ee955036da20115e2f": {
+            "format": "jpg",
+            "id": "72512c709afb77ee955036da20115e2f",
+            "name": "Foto(842).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(842).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5b8cd585395cba03425ba6fccf0a2410": {
+            "format": "jpg",
+            "id": "5b8cd585395cba03425ba6fccf0a2410",
+            "name": "Foto(843).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(843).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4cce893eba110b35fcf560ac10a80c58": {
+            "format": "jpg",
+            "id": "4cce893eba110b35fcf560ac10a80c58",
+            "name": "Foto(844).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(844).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d07fb8ca68389170657c163790e81abf": {
+            "format": "jpg",
+            "id": "d07fb8ca68389170657c163790e81abf",
+            "name": "Foto(845).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(845).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "334e8183481563e7e4a9379035d985a2": {
+            "format": "jpg",
+            "id": "334e8183481563e7e4a9379035d985a2",
+            "name": "Foto(846).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(846).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5d3b26c0b8b469f5ae1dac17ff8409d3": {
+            "format": "jpg",
+            "id": "5d3b26c0b8b469f5ae1dac17ff8409d3",
+            "name": "Foto(847).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(847).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "542846c3d21ea72eed1c849024d58e1a": {
+            "format": "jpg",
+            "id": "542846c3d21ea72eed1c849024d58e1a",
+            "name": "Foto(848).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(848).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3ab86d93be779ee8ee9a64d64ef57d70": {
+            "format": "jpg",
+            "id": "3ab86d93be779ee8ee9a64d64ef57d70",
+            "name": "Foto(849).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(849).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b9b240b9237efe3fa2d649003f655f8c": {
+            "format": "jpg",
+            "id": "b9b240b9237efe3fa2d649003f655f8c",
+            "name": "Foto(850).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(850).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "29e8e5e5a6a262c381bf4dfc9faae72c": {
+            "format": "jpg",
+            "id": "29e8e5e5a6a262c381bf4dfc9faae72c",
+            "name": "Foto(851).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(851).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f6893b63dfe361d409ddff39722bdbe5": {
+            "format": "jpg",
+            "id": "f6893b63dfe361d409ddff39722bdbe5",
+            "name": "Foto(852).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(852).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7e52024d434856890bf8a5e3b1861f2d": {
+            "format": "jpg",
+            "id": "7e52024d434856890bf8a5e3b1861f2d",
+            "name": "Foto(853).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(853).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7f5efdbc3a5d657a965ab8b2513d5086": {
+            "format": "jpg",
+            "id": "7f5efdbc3a5d657a965ab8b2513d5086",
+            "name": "Foto(854).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(854).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8f6fed7330a55efa6d125d6cf27ec080": {
+            "format": "jpg",
+            "id": "8f6fed7330a55efa6d125d6cf27ec080",
+            "name": "Foto(858).jpg",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(858).jpg",
+            "size": {
+                "width": 1152,
+                "height": 864
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1647f9e5a95b94d6842537022a384186": {
+            "format": "JPG",
+            "id": "1647f9e5a95b94d6842537022a384186",
+            "name": "PfggfhgICT0034.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PfggfhgICT0034.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6d61d46efcf23aab77a7b97f10916393": {
+            "format": "JPG",
+            "id": "6d61d46efcf23aab77a7b97f10916393",
+            "name": "PIadwCT0019.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PIadwCT0019.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "acdc0b24eb41ba11ea1148fd5e2c5e0f": {
+            "format": "JPG",
+            "id": "acdc0b24eb41ba11ea1148fd5e2c5e0f",
+            "name": "PICawdT0024.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICawdT0024.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "68a1a0d486c00cc85a106491cc28caee": {
+            "format": "JPG",
+            "id": "68a1a0d486c00cc85a106491cc28caee",
+            "name": "PICfggfhT0018.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICfggfhT0018.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cf762ac0ab35405391661ff8fb8bcf28": {
+            "format": "JPG",
+            "id": "cf762ac0ab35405391661ff8fb8bcf28",
+            "name": "PICfhghhgfT0019.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICfhghhgfT0019.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "84af071b9f1ce6bc0f4618cb59a043d9": {
+            "format": "JPG",
+            "id": "84af071b9f1ce6bc0f4618cb59a043d9",
+            "name": "PICgfhghfT0021.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICgfhghfT0021.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5d82454b8de615415857d0c59ada9d9e": {
+            "format": "JPG",
+            "id": "5d82454b8de615415857d0c59ada9d9e",
+            "name": "PIChgfghT0025.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PIChgfghT0025.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3b0d0be0d6d5238cef8bc61e1637c280": {
+            "format": "JPG",
+            "id": "3b0d0be0d6d5238cef8bc61e1637c280",
+            "name": "PICgfhT0012.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICgfhT0012.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ad1419ddde9f7f9c3c633ca8b894ac94": {
+            "format": "JPG",
+            "id": "ad1419ddde9f7f9c3c633ca8b894ac94",
+            "name": "PIChT0002.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PIChT0002.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c036fff3c7fbb4e36ec60dde7dd80a5e": {
+            "format": "JPG",
+            "id": "c036fff3c7fbb4e36ec60dde7dd80a5e",
+            "name": "PICsdT0032.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICsdT0032.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9eaecbba7bddaaa44c698c53a48a5035": {
+            "format": "JPG",
+            "id": "9eaecbba7bddaaa44c698c53a48a5035",
+            "name": "PICT0001.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0001.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "03665c71f48538929c2af45ef9e27f87": {
+            "format": "JPG",
+            "id": "03665c71f48538929c2af45ef9e27f87",
+            "name": "PICT0003.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0003.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "01ccce052ad1d39df9bbb1fc9ea5542f": {
+            "format": "JPG",
+            "id": "01ccce052ad1d39df9bbb1fc9ea5542f",
+            "name": "PICT0004.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0004.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d95afa80280278162761efe57cf42a27": {
+            "format": "JPG",
+            "id": "d95afa80280278162761efe57cf42a27",
+            "name": "PICT0005.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0005.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e35023338909440bac84b40536dd28c7": {
+            "format": "JPG",
+            "id": "e35023338909440bac84b40536dd28c7",
+            "name": "PICT0006.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0006.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b1e88a1f4124a5c6a79ad30e124996aa": {
+            "format": "JPG",
+            "id": "b1e88a1f4124a5c6a79ad30e124996aa",
+            "name": "PICT0007.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0007.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "30d46d58beaf652f7e834f2dcc497ce2": {
+            "format": "JPG",
+            "id": "30d46d58beaf652f7e834f2dcc497ce2",
+            "name": "PICT0008.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0008.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7970b67914101be9abd9689bb3b9ddf6": {
+            "format": "JPG",
+            "id": "7970b67914101be9abd9689bb3b9ddf6",
+            "name": "PICT0009.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0009.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "431d1fbc53ee1fa7efb23ba60a95778a": {
+            "format": "JPG",
+            "id": "431d1fbc53ee1fa7efb23ba60a95778a",
+            "name": "PICT000fghgh3.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT000fghgh3.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8e49db463d7f0b731193ccd658e99850": {
+            "format": "JPG",
+            "id": "8e49db463d7f0b731193ccd658e99850",
+            "name": "PICT0010.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0010.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e82a508d33ff2958a46bb7b43451c8b7": {
+            "format": "JPG",
+            "id": "e82a508d33ff2958a46bb7b43451c8b7",
+            "name": "PICT0011.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0011.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2abebe3fd9a1314fce652fe78094d1e5": {
+            "format": "JPG",
+            "id": "2abebe3fd9a1314fce652fe78094d1e5",
+            "name": "PICT0012.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0012.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "61ceeac67b97fc4684e6f8d6254ed8a4": {
+            "format": "JPG",
+            "id": "61ceeac67b97fc4684e6f8d6254ed8a4",
+            "name": "PICT0013.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0013.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8560b1b725f8e9720b04c74e7ab71e95": {
+            "format": "JPG",
+            "id": "8560b1b725f8e9720b04c74e7ab71e95",
+            "name": "PICT0014.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0014.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "38779cb6e7a573e9a0583dcc9b26ee50": {
+            "format": "JPG",
+            "id": "38779cb6e7a573e9a0583dcc9b26ee50",
+            "name": "PICT0015.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0015.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b0e496e881dd16c009f6fc54516412a4": {
+            "format": "JPG",
+            "id": "b0e496e881dd16c009f6fc54516412a4",
+            "name": "PICT0016.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0016.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "832d0f19a821cb46d7d4c9b9e0d5db86": {
+            "format": "JPG",
+            "id": "832d0f19a821cb46d7d4c9b9e0d5db86",
+            "name": "PICT0017.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0017.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cb603d9975a61c2bb1ac860d76770fbc": {
+            "format": "JPG",
+            "id": "cb603d9975a61c2bb1ac860d76770fbc",
+            "name": "PICT0018.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0018.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "15662e4cd349ffc7f5a839229eada2f1": {
+            "format": "JPG",
+            "id": "15662e4cd349ffc7f5a839229eada2f1",
+            "name": "PICT0019.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0019.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2d4a5b647ccb930a444f9920bb075b7f": {
+            "format": "JPG",
+            "id": "2d4a5b647ccb930a444f9920bb075b7f",
+            "name": "PICT001gfghfg7.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT001gfghfg7.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f8582a49e756539cc812c1f3c909e4f9": {
+            "format": "JPG",
+            "id": "f8582a49e756539cc812c1f3c909e4f9",
+            "name": "PICT0020.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0020.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9e10e43f6460887902ffba4c66bfe269": {
+            "format": "JPG",
+            "id": "9e10e43f6460887902ffba4c66bfe269",
+            "name": "PICT0021.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0021.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "585b44dc95778278c6cd40a0f21e2f84": {
+            "format": "JPG",
+            "id": "585b44dc95778278c6cd40a0f21e2f84",
+            "name": "PICT0022.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0022.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bf774980bed7eea8099c7ef8462ba36f": {
+            "format": "JPG",
+            "id": "bf774980bed7eea8099c7ef8462ba36f",
+            "name": "PICT0022fhghg.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0022fhghg.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9576e2bebef68bbdab56d7f269711145": {
+            "format": "JPG",
+            "id": "9576e2bebef68bbdab56d7f269711145",
+            "name": "PICT0023.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0023.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "44d90b0168978e8107589344d0c7de58": {
+            "format": "JPG",
+            "id": "44d90b0168978e8107589344d0c7de58",
+            "name": "PICT0024.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0024.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8112f8f32dcc3b8d09d0e4920c55f7d4": {
+            "format": "JPG",
+            "id": "8112f8f32dcc3b8d09d0e4920c55f7d4",
+            "name": "PICT0025.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0025.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5a4200bcd6d97642dee0f16208adc72f": {
+            "format": "JPG",
+            "id": "5a4200bcd6d97642dee0f16208adc72f",
+            "name": "PICT0026.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0026.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a350a83bb9ef7943ef1539a764efd385": {
+            "format": "JPG",
+            "id": "a350a83bb9ef7943ef1539a764efd385",
+            "name": "PICT0027.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0027.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7ce48b2489feeb4cb043699f594b076b": {
+            "format": "JPG",
+            "id": "7ce48b2489feeb4cb043699f594b076b",
+            "name": "PICT0028.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0028.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0fa177c2edd6d144648cafef389bb8e2": {
+            "format": "JPG",
+            "id": "0fa177c2edd6d144648cafef389bb8e2",
+            "name": "PICT0030.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0030.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "79a44fb6de90b8d1418baddbd0a3f15c": {
+            "format": "JPG",
+            "id": "79a44fb6de90b8d1418baddbd0a3f15c",
+            "name": "PICT0031.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0031.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0b3ba8957da922963a455f036121ac3d": {
+            "format": "JPG",
+            "id": "0b3ba8957da922963a455f036121ac3d",
+            "name": "PICT0032.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0032.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "da791ce4c4c0faae0fd4a6391796f4ed": {
+            "format": "JPG",
+            "id": "da791ce4c4c0faae0fd4a6391796f4ed",
+            "name": "PICT0033.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0033.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2d30cf94e7f429dcba21e139c64433dc": {
+            "format": "JPG",
+            "id": "2d30cf94e7f429dcba21e139c64433dc",
+            "name": "PICT0034.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0034.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "de4b8b7ae5a9e7a28602cf80fe1e9f3e": {
+            "format": "JPG",
+            "id": "de4b8b7ae5a9e7a28602cf80fe1e9f3e",
+            "name": "PICT0035.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0035.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "334cc4dc737fef07f56f04a705e3a599": {
+            "format": "JPG",
+            "id": "334cc4dc737fef07f56f04a705e3a599",
+            "name": "PICT0036.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0036.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d84d701f2cba579b93fea7c546757ecc": {
+            "format": "JPG",
+            "id": "d84d701f2cba579b93fea7c546757ecc",
+            "name": "PICT0037.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0037.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e3a4dd8c8d8cdf4c159d12c646dd5005": {
+            "format": "JPG",
+            "id": "e3a4dd8c8d8cdf4c159d12c646dd5005",
+            "name": "PICT0002.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0002.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a857d2a2e5b133f41d601dc4980173d9": {
+            "format": "JPG",
+            "id": "a857d2a2e5b133f41d601dc4980173d9",
+            "name": "PICT0038.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0038.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "04596db0a6c095cc6760032b7e7c5bda": {
+            "format": "JPG",
+            "id": "04596db0a6c095cc6760032b7e7c5bda",
+            "name": "PICT0039.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0039.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9fb64e3589afad5506913c98d996808b": {
+            "format": "JPG",
+            "id": "9fb64e3589afad5506913c98d996808b",
+            "name": "PICT0041.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0041.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "43f5e4d7a673e411ebe08f89c76c2f95": {
+            "format": "JPG",
+            "id": "43f5e4d7a673e411ebe08f89c76c2f95",
+            "name": "PICT0042.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0042.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d65b1b717d269edf18e7d61d95b9f74f": {
+            "format": "JPG",
+            "id": "d65b1b717d269edf18e7d61d95b9f74f",
+            "name": "PICT0048.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0048.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "98f76bd64a088bc81792e225c82bc43d": {
+            "format": "JPG",
+            "id": "98f76bd64a088bc81792e225c82bc43d",
+            "name": "PICT0050.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0050.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "42ab8947d5d09383e395ca8adbf5cf2a": {
+            "format": "JPG",
+            "id": "42ab8947d5d09383e395ca8adbf5cf2a",
+            "name": "PICT00awd25.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT00awd25.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fdcea86f7870586a868fc3ffd7152367": {
+            "format": "JPG",
+            "id": "fdcea86f7870586a868fc3ffd7152367",
+            "name": "PICT00daw23.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT00daw23.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "134c2f45b5e6d0dff7e1c55e85215ab0": {
+            "format": "JPG",
+            "id": "134c2f45b5e6d0dff7e1c55e85215ab0",
+            "name": "PICT00dfs31.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT00dfs31.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5505eb1c7963ef5af43bc3a9ac1e5006": {
+            "format": "JPG",
+            "id": "5505eb1c7963ef5af43bc3a9ac1e5006",
+            "name": "PICT00dsf33.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT00dsf33.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3f769bf3aa914f04e3c68b75432a8af9": {
+            "format": "JPG",
+            "id": "3f769bf3aa914f04e3c68b75432a8af9",
+            "name": "PICT00fghgh02.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT00fghgh02.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6ee53ae2bc1446d721780e62d37c72dd": {
+            "format": "JPG",
+            "id": "6ee53ae2bc1446d721780e62d37c72dd",
+            "name": "PICT00gfh11.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT00gfh11.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b7f38adbe3bb4d1ea80d8e0327efaa73": {
+            "format": "JPG",
+            "id": "b7f38adbe3bb4d1ea80d8e0327efaa73",
+            "name": "PICT00gfhgfgh20.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT00gfhgfgh20.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e6bab4c9bc62c5dace767f018f13f5e6": {
+            "format": "JPG",
+            "id": "e6bab4c9bc62c5dace767f018f13f5e6",
+            "name": "PICT00gfhh38.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT00gfhh38.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ee6afe568e6cf51d8037d7da92dbd02e": {
+            "format": "JPG",
+            "id": "ee6afe568e6cf51d8037d7da92dbd02e",
+            "name": "PICT00gh03.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT00gh03.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8552e6af5f3a7a1487f777c6af823c12": {
+            "format": "JPG",
+            "id": "8552e6af5f3a7a1487f777c6af823c12",
+            "name": "PICT00ghhgh26.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT00ghhgh26.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2f00b5112d160cc2d881d75aa98a61be": {
+            "format": "JPG",
+            "id": "2f00b5112d160cc2d881d75aa98a61be",
+            "name": "PICT00hfghg10.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT00hfghg10.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "19a0e9582c402ae71f3f2bf571969ee9": {
+            "format": "JPG",
+            "id": "19a0e9582c402ae71f3f2bf571969ee9",
+            "name": "PICT00sdf27.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT00sdf27.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7480081823bec75d2e389107bde2fcf3": {
+            "format": "JPG",
+            "id": "7480081823bec75d2e389107bde2fcf3",
+            "name": "PICT00sdf37.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT00sdf37.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bbd079e6845158e6ade0a47b5faf9ab4": {
+            "format": "JPG",
+            "id": "bbd079e6845158e6ade0a47b5faf9ab4",
+            "name": "PICT0dfs038.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0dfs038.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "276028f0671782f5c46b64d3532ab5b6": {
+            "format": "JPG",
+            "id": "276028f0671782f5c46b64d3532ab5b6",
+            "name": "PICT0fgfgh015.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0fgfgh015.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "abd3a54193bab9fc69a06e458bacfe89": {
+            "format": "JPG",
+            "id": "abd3a54193bab9fc69a06e458bacfe89",
+            "name": "PICT0fgh004.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0fgh004.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5c79245078f08bd2b50ab70294361d01": {
+            "format": "JPG",
+            "id": "5c79245078f08bd2b50ab70294361d01",
+            "name": "PICT0gh009.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0gh009.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7afa63fdfa3dba433a557bd7725a841c": {
+            "format": "JPG",
+            "id": "7afa63fdfa3dba433a557bd7725a841c",
+            "name": "PICT0ghfghg023.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0ghfghg023.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "aa1510dc98213d542ccf2e96419b4017": {
+            "format": "JPG",
+            "id": "aa1510dc98213d542ccf2e96419b4017",
+            "name": "PICT0ghgfhg012.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0ghgfhg012.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "484532d9eab8394b3bbc935d4f06e5d0": {
+            "format": "JPG",
+            "id": "484532d9eab8394b3bbc935d4f06e5d0",
+            "name": "PICT0hhfhg011.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0hhfhg011.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ede84478e58e4e541aaebd6602417449": {
+            "format": "JPG",
+            "id": "ede84478e58e4e541aaebd6602417449",
+            "name": "PICT0wa016.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0wa016.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fe142f914222becd8948f4158e7828b3": {
+            "format": "JPG",
+            "id": "fe142f914222becd8948f4158e7828b3",
+            "name": "PICT0wad018.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0wad018.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d4a3fe099863efa2c622edc811bc9174": {
+            "format": "JPG",
+            "id": "d4a3fe099863efa2c622edc811bc9174",
+            "name": "PICTadw0020.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICTadw0020.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bf52d47a97b490bbd444906e6889356d": {
+            "format": "JPG",
+            "id": "bf52d47a97b490bbd444906e6889356d",
+            "name": "PICTfgh0008.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICTfgh0008.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ec9e03d14acc8160ebbe0bbf4ebaf891": {
+            "format": "JPG",
+            "id": "ec9e03d14acc8160ebbe0bbf4ebaf891",
+            "name": "PICTfhghgfh0039.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICTfhghgfh0039.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3deee13f3808a7ee920ce0b7e789bdcb": {
+            "format": "JPG",
+            "id": "3deee13f3808a7ee920ce0b7e789bdcb",
+            "name": "PICTgf0010.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICTgf0010.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "74d8fd8ee5ee2385e4fe8578c65dd2f9": {
+            "format": "JPG",
+            "id": "74d8fd8ee5ee2385e4fe8578c65dd2f9",
+            "name": "PICTsdf0036.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICTsdf0036.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bc83bb3cf20a778e3f73bafb69934396": {
+            "format": "JPG",
+            "id": "bc83bb3cf20a778e3f73bafb69934396",
+            "name": "PICTwa0015.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICTwa0015.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e33d747993c6dafded774b2af63e7b47": {
+            "format": "JPG",
+            "id": "e33d747993c6dafded774b2af63e7b47",
+            "name": "PIfghghfCT0009.JPG",
+            "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PIfghghfCT0009.JPG",
+            "size": {
+                "width": 2976,
+                "height": 2232
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}

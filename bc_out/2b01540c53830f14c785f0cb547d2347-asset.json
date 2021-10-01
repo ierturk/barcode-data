@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "2b01540c53830f14c785f0cb547d2347",
+        "name": "Foto(691).jpg",
+        "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(691).jpg",
+        "size": {
+            "width": 1152,
+            "height": 864
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "q3Q4JGNdP",
+            "type": "RECTANGLE",
+            "tags": [
+                "barcode"
+            ],
+            "boundingBox": {
+                "height": 189.77142857142857,
+                "width": 375.24932975871315,
+                "left": 379.88203753351206,
+                "top": 351.3857142857143
+            },
+            "points": [
+                {
+                    "x": 379.88203753351206,
+                    "y": 351.3857142857143
+                },
+                {
+                    "x": 755.1313672922251,
+                    "y": 351.3857142857143
+                },
+                {
+                    "x": 755.1313672922251,
+                    "y": 541.1571428571428
+                },
+                {
+                    "x": 379.88203753351206,
+                    "y": 541.1571428571428
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

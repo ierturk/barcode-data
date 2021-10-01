@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "80d963b882ce45d2845d3ef1c5a73a33",
+        "name": "Foto(835).jpg",
+        "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/Foto(835).jpg",
+        "size": {
+            "width": 1152,
+            "height": 864
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "KwHRPoloC",
+            "type": "RECTANGLE",
+            "tags": [
+                "barcode"
+            ],
+            "boundingBox": {
+                "height": 140.4,
+                "width": 353.63002680965144,
+                "left": 381.426273458445,
+                "top": 380.70000000000005
+            },
+            "points": [
+                {
+                    "x": 381.426273458445,
+                    "y": 380.70000000000005
+                },
+                {
+                    "x": 735.0563002680965,
+                    "y": 380.70000000000005
+                },
+                {
+                    "x": 735.0563002680965,
+                    "y": 521.1
+                },
+                {
+                    "x": 381.426273458445,
+                    "y": 521.1
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

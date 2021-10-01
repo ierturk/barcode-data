@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "JPG",
+        "id": "ee6afe568e6cf51d8037d7da92dbd02e",
+        "name": "PICT00gh03.JPG",
+        "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT00gh03.JPG",
+        "size": {
+            "width": 2976,
+            "height": 2232
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "fgKdw1IAh",
+            "type": "RECTANGLE",
+            "tags": [
+                "barcode"
+            ],
+            "boundingBox": {
+                "height": 569.9571428571429,
+                "width": 1256.621983914209,
+                "left": 710.0911528150134,
+                "top": 1198.7035714285714
+            },
+            "points": [
+                {
+                    "x": 710.0911528150134,
+                    "y": 1198.7035714285714
+                },
+                {
+                    "x": 1966.7131367292225,
+                    "y": 1198.7035714285714
+                },
+                {
+                    "x": 1966.7131367292225,
+                    "y": 1768.6607142857142
+                },
+                {
+                    "x": 710.0911528150134,
+                    "y": 1768.6607142857142
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

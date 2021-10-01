@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "JPG",
+        "id": "61ceeac67b97fc4684e6f8d6254ed8a4",
+        "name": "PICT0013.JPG",
+        "path": "file:C:/Users/i.erturk/Desktop/BarcodeDatasets/barcode_dataset/PICT0013.JPG",
+        "size": {
+            "width": 2976,
+            "height": 2232
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "WFK_Myboo",
+            "type": "RECTANGLE",
+            "tags": [
+                "barcode"
+            ],
+            "boundingBox": {
+                "height": 892.8,
+                "width": 1480.0214477211796,
+                "left": 414.88471849865954,
+                "top": 0
+            },
+            "points": [
+                {
+                    "x": 414.88471849865954,
+                    "y": 0
+                },
+                {
+                    "x": 1894.9061662198392,
+                    "y": 0
+                },
+                {
+                    "x": 1894.9061662198392,
+                    "y": 892.8
+                },
+                {
+                    "x": 414.88471849865954,
+                    "y": 892.8
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
